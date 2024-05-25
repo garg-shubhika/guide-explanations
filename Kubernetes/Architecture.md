@@ -1,5 +1,7 @@
 # Kubernetes Architecture Overview
 
+![k8s architecture](https://github.com/garg-shubhika/guide-explanations/assets/115157279/d22efccd-367b-4115-9bed-d708db3bf579)
+
 ## Kubernetes Components
 
 ### Control Plane
@@ -18,11 +20,11 @@
   
   - **etcd**: A distributed key-value store that stores the cluster's configuration data and state.
 
-### Node Components
+### Worker Node Components
 
 - **Kubelet**: An agent that runs on each node and is responsible for managing the pods and containers on that node. It interacts with the API server to receive instructions (e.g., starting, stopping, and monitoring pods) and ensures that the containers are running as expected.
 
-- **Container Runtime**: The software responsible for running containers. Docker is a commonly used container runtime, but Kubernetes also supports other runtimes like containerd and CRI-O.
+- **Container Runtime**: The software responsible for running containers. Docker is a commonly used container runtime, but Kubernetes also supports other runtimes like containerd.
 
 - **Kube Proxy**: Maintains network rules on each node. It handles network routing for services running in the cluster and enables communication between pods across the cluster.
 
