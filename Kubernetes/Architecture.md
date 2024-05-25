@@ -1,6 +1,7 @@
 # Kubernetes Architecture Overview
 
 ![k8s architecture](https://github.com/garg-shubhika/guide-explanations/assets/115157279/d22efccd-367b-4115-9bed-d708db3bf579)
+*Image Source: https://mohan08p.medium.com/simplified-kubernetes-architecture-3febe12480eb*
 
 ## Kubernetes Components
 
