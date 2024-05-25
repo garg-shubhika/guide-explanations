@@ -6,13 +6,13 @@
 
 ## Kubernetes Components
 
-### Control Plane
-
-- **Control Plane**: The core component of Kubernetes responsible for managing the cluster and orchestrating workloads. It consists of several components:
+  - **Control Plane**: The core component of Kubernetes responsible for managing the cluster and orchestrating workloads. It consists of several components:
 
   - **Master Node**: The primary node that controls the Kubernetes cluster. It manages the cluster state and orchestrates operations.
   
   - **Worker Node**: Also known as a minion, these nodes are responsible for running applications and handling workload tasks.
+ 
+### Master Node Components
   
   - **API Server**: Exposes the Kubernetes API, which allows users and external systems to interact with the cluster.
   
