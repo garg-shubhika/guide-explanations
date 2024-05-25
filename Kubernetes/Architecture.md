@@ -18,7 +18,7 @@
   
   - **Scheduler**: Assigns pods to nodes based on resource availability and other constraints. It plays a critical role in optimizing cluster performance and maintaining workload balance.
   
-  - **Controller Manager**: Ensures that the desired state of objects in the cluster matches the actual state.
+  - **Controller Manager**: Ensures that the desired state of objects in the cluster matches the actual state. It runs controller loops that continuously watch the cluster's state and take actions to ensure that the actual state matches the desired state specified by users or system defaults.
   
   - **etcd**: A distributed key-value store that stores the cluster's configuration data and state.
 
