@@ -1,3 +1,6 @@
+![image](https://github.com/garg-shubhika/guide-explanations/assets/115157279/ef45b4ae-9c30-4e1b-ac69-0be39fe4d4de)
+
+*Image Source: https://kinsta.com/knowledgebase/what-is-docker/*
 
 - **Docker Client**: The Docker client is a command-line interface (CLI) tool that allows users to interact with the Docker daemon through commands. Users use the Docker client to build, manage, and control Docker containers and images.
 
