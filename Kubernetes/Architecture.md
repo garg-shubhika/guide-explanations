@@ -16,7 +16,7 @@
   
   - **API Server**: Exposes the Kubernetes API, which allows users and external systems to interact with the cluster.
   
-  - **Scheduler**: Assigns pods to nodes based on resource availability and other constraints.
+  - **Scheduler**: Assigns pods to nodes based on resource availability and other constraints. It plays a critical role in optimizing cluster performance and maintaining workload balance.
   
   - **Controller Manager**: Ensures that the desired state of objects in the cluster matches the actual state.
   
