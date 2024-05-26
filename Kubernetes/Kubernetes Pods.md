@@ -28,11 +28,11 @@ Special containers that run before the main containers in a pod, performing setu
 
 In Kubernetes, each pod is assigned a unique IP address within the cluster, allowing containers within different pods to communicate with each other using these IPs. However, for stable access and load balancing, Kubernetes uses services.
 
-## Cluster IP Address for Pods
+### Cluster IP Address for Pods
 
 - **Pod IP Address**: Each pod has a unique IP address. This IP is used for inter-pod communication within the cluster.
 
-## Kube-Proxy and Services
+### Kube-Proxy and Services
 
 - **Kube-Proxy**: Kube-proxy is a network proxy that runs on each node. It maintains network rules and handles routing of traffic between pods and services.
   
@@ -41,12 +41,13 @@ In Kubernetes, each pod is assigned a unique IP address within the cluster, allo
   - Services enable load balancing and provide a single point of access to multiple pods.
   - When you create a service, Kubernetes assigns it a Cluster IP address. This address is used to access the service, and kube-proxy ensures that requests to the Cluster IP are forwarded to the appropriate pods.
 
-## Example
+### Example
 
 If you have a service named `my-service` that targets a set of pods, you can access this service within the cluster using its Cluster IP:
 
 ```sh
 curl http://<Cluster-IP-of-my-service>
+```
 
 
 # Strategies to Avoid Pod Downtime in Kubernetes
