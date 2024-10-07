@@ -1,0 +1,15 @@
+FROM python:3.9-slim
+
+## Set environment variables
+ENV APP_ENV=production
+ENV APP_SECRET=mysecret
+
+WORKDIR /app
+
+COPY app.py .
+
+CMD ["python", "app.py"]
+
+
+# Another way is to pass environment variables when you start the container, using the -e flag.
+# docker run -e APP_ENV=production -e APP_SECRET=mysecret my-python-app
