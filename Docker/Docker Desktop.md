@@ -1,0 +1,1 @@
+**Docker Desktop** is an application designed for Windows and macOS that simplifies the process of developing and managing containerized applications using Docker. It provides a user-friendly interface for managing Docker containers, images, and volumes, as well as tools for building, running, and deploying applications.
